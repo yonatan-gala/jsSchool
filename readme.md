@@ -6,3 +6,9 @@ This can enable to capture progress and write down my understanding of issues in
 
 General concepts are cpatured in markdown.
 Code snippets are captured in JS. 
+
+
+## CURRICULUM:
+- JavaScript: Understanding the Weird Parts [https://www.udemy.com/understand-javascript],UDEMI COURSE.
+- Eloquent Javascript [http://eloquentjavascript.net], BOOK.
+- Free Code CAMP path [https://learn.freecodecamp.org/].
