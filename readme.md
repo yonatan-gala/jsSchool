@@ -16,3 +16,20 @@ Code snippets are captured in JS.
 - JavaScript and the DOM course UDEMI [https://classroom.udacity.com/courses/ud117.]
 
 ## ROAD MAP (TDB)
+- Functions, Methods, Objects
+- EC6
+- MVC
+
+- Object oriented programming
+- Angular
+
+// WEEK 1 - 5
+Functions, Methods, Objects + MVC , 1-2 
+EC6 3 - 5
+
+## Projects :
+1. todo.
+
+## Assesment :
+### WEEK 1: 
+- todo.
