@@ -36,7 +36,6 @@ function myBattleShip(value){
     // create them randomly within a range.
     // todo, play with arrays here
     var randomLoc = Math.floor(Math.random() * (guessRange - 2));
-    var randomSize = Math.floor(Math.random() * (guessRange - 2));
     let location1 = randomLoc;
     let location2 = location1 + 1;
     let location3 = location2 + 1;
