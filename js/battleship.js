@@ -10,14 +10,6 @@
 // todo: this can be fix if we create an array for locations.
 // size should be random from a range then passed to location.
 
-// variables
-// guess is defined but not initialized.
-// it is initialized within the loop
-let guess;
-let guessRange;
-let hits = 0;
-let guesses = 0;
-let isSunk = false;
 
 // Features: you can define a range for 'sea size'
 
@@ -25,6 +17,14 @@ let isSunk = false;
 // the game is run from a function
 // the numver of possible locations is a parameter.
 function myBattleShip(value){
+    // variables
+    // guess is defined but not initialized.
+    // it is initialized within the loop
+    let guess;
+    let guessRange;
+    let hits = 0;
+    let guesses = 0;
+    let isSunk = false;
     guessRange = value;
     // messages:
     let validRangeMessage = "Ready, aim, fire!, enter a number from 0-" + guessRange;
