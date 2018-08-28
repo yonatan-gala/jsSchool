@@ -25,6 +25,26 @@ else {
    statement is executed
 }
 ````
+
+logical order example
+````
+function orderMyLogic(val) {
+// is it greater or eaqul to 10
+  if (val >= 10) {
+       return "Greater than or equal to 10";
+  } 
+  // is it greater then 5;
+  else if (val >= 5) {
+     return "Less than 10";
+  
+  } else {
+     return "Less than 5";
+  }
+}
+````
+
+
+
 We can chain 'if' statments
 ````
 if (condition1) {
@@ -39,6 +59,11 @@ if (condition1) {
 }
 ````
 
+#### logical operators: 
+Or : (num > 10 || num < 5)
+And : (num > 5 && num < 10) 
+
+
 ### Switch statment 
 instead of chaining 'if statement , gives better structure.
 we usually do it when the avilable options are specified and have clear assignments
@@ -50,11 +75,19 @@ switch (num) {
   case value2:
     statement2;
     break;
-...
+    // default is defined diffrantly, and serves like an else statement
   default:
     defaultStatement;
     break;
 }
+````
+you can combine cases
+````
+  case value1:
+  case value2:
+  case value4:
+   statement
+   break;
 ````
 
 ### LOOPS
@@ -73,8 +106,17 @@ for (var i = 0; i < 5; i++) {
 
 ### a while loop
 a loop that runs while a condition is met
+good when we do not know how many iteration we have.
+not good if condition is permanant, becuase it create and infinit loop.
 ````
-while (condition) do ...
+while (condition) do ... 
 ````
 
-
+### true/false returns
+we can use parameters for true/false returns.
+````
+function isLess(a, b) {
+  return a < b;
+}
+````
+isLess(10, 15) will return true.
