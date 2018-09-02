@@ -2,15 +2,32 @@
 <html class="no-js" lang="">
 
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title></title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>
 
 <body>
- <h1>JS playground</h1>
-  <script src="app.js"></script>
+<h1 id="gameTitle">{}</h1>
+<h2 id="gameProgress">{}</h2>
+<div class="cards container">
+    <div class="action-btns">
+        <button id="newGame">{}</button>
+        <button id="hitMe">{}</button>
+        <button id="holdCards">{}</button>
+        <button id="abortGame">{}</button>
+    </div>
+    <div class="player">
+        <div data-player="user" class="player__status"></div>
+        <div class="card-list"></div>
+    </div>
+    <div data-player="computer" class="player">
+        <div class="player__status"></div>
+        <div class="card-list"></div>
+    </div>
+</div>
+<script src="app.js"></script>
 </body>
 </html>

@@ -15,4 +15,4 @@ function include(file)
 
 }
 
-include('js/battleship.js');
+include('js/blackjack/blackjack.js');
